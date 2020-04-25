@@ -2,6 +2,8 @@
 
 The main environment requirements for this project are `python 3.6`, `pytorch 1.2.0`, and `pytorch-pretrained-bert 0.6.1`.
 
+Datasets used in the paper can be found in `data/`, except for `mnli_train.tsv` (too large), which can be downloaded from https://gluebenchmark.com/tasks.
+
 `run_tagger.sh`: finetune a BERT model for sentiment analysis (SA) and natural language inference (NLI).
 
 `run_influence.sh`: generate influence function results in the paper, including influence score calculation, leave-one-out (LOO) training, and token removals.
